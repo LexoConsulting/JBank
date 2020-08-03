@@ -1,0 +1,12 @@
+jwt.secret=my-very-secret-key
+jwt.tokenExpirationTime=600
+
+logging.file.name=./spring.log
+logging.level.org.springframework.security= DEBUG
+
+spring.resources.chain.enabled= true
+
+springdoc.swagger-ui.path= /swagger-ui.html
+springdoc.swagger-ui.operationsSorter= method
+
+management.security.enabled= true # set to false to disable 'default' Spring Boot security

@@ -1,0 +1,21 @@
+server:
+  port: 8080
+jwt:
+  secret: my-very-secret-key
+  tokenExpirationTime: 600
+logging:
+  file:
+    name: /Users/mikeyuan/Workspace/Temp/logs/spring.log
+  level:
+    org.springframework.security: DEBUG
+spring:
+  resources:
+    chain:
+      enabled: true
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    operationsSorter: method
+management:
+  security:
+    enabled: true # set to false to disable 'default' Spring Boot security
